@@ -24,9 +24,11 @@ var redWin1 = $("#one.red, #two.red, #three.red").length === 3
   var redWin6 = $("#three.red, #six.red, #nine.red").length === 3
   var redWin7 = $("#one.red, #five.red, #nine.red").length === 3
   var redWin8 = $("#seven.red, #five.red, #three.red").length === 3
+  // 
 //var winningCombos = [x]
   //refactor below too... not DRY at all!!!
   //note: playerOne is always blue
+  // note: player 2 would be another colour such as: red Iguess...
   var blueWins = (blueWin1 || blueWin2 || blueWin3 || blueWin4 || blueWin5 || blueWin6 || blueWin7 || blueWin8)
 var redWins = (redWin1 || redWin2 || redWin3 || redWin4 || redWin5 || redWin6 || redWin7 || redWin8)
 var redCount = getRedCount()
